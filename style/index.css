@@ -62,3 +62,21 @@ body {
     width: 65px;
 }
 
+.forms_education {
+    padding: 0 85px 55px 85px;
+}
+
+.forms_education h1 {
+    font-size: 45px;
+}
+
+.forms_education a {
+    float: right;
+    position: relative;
+    top: -75px;
+}
+
+.forms_education table {
+
+}
+
