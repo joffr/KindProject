@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS";
+}
+
+.promo {
+    background: #6451d5 url("../images/items.png") no-repeat 500px;
+    padding: 93px;
+}
+
+.promo h1 {
+    font-size: 45px;
+    color: #e7e5f5;
+    margin: 0;
+    width: 425px;
+}
+
+.promo p {
+    color: #a79dea;
+    font-size: 18px;
+    width: 305px;
+    margin-bottom: 50px;
+}
+
+.promo a {
+    background-color: #382d78;
+    padding: 20px 80px 20px 80px;
+    color: #e7e5f5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.advantages {
+    background-color: #efefef;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.advantages ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages ul li {
+    list-style-type: none;
+}
+
+.advantages ul li h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.advantages ul li p {
+    color: #555555;
+    font-size: 18px;
+    width: 285px;
+    font-weight: normal;
+}
+
+.advantages ul li img {
+    width: 65px;
+}
+
