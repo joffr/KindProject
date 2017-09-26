@@ -4,9 +4,15 @@ body {
     font-family: "Trebuchet MS";
 }
 
+.promo_invite {
+    width: 100%;
+    background-color: #6451d5;
+}
 .promo {
-    background: #6451d5 url("../images/items.png") no-repeat 500px;
+    background: url("../images/items.png") no-repeat 500px;
     padding: 93px;
+    width: 1020px;
+    margin: 0 auto;
 }
 
 .promo h1 {
@@ -31,10 +37,19 @@ body {
     text-decoration: none;
 }
 
+.promo a:hover {
+    background-color: #32286c;
+}
+
+.promo a:active {
+    color: #8581a1;
+}
+
 .advantages {
     background-color: #efefef;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .advantages ul {
@@ -76,7 +91,122 @@ body {
     top: -75px;
 }
 
+.forms_education a:hover {
+    color: #32286c;
+}
+
+.forms_education a:active {
+    color: #c1bed3;
+}
+
 .forms_education table {
+    border: 2px solid #a7a7a7;
+    font-family: "Tahoma";
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.forms_education table th {
+    background-color: #efefef;
+    font-weight: normal;
+    padding: 15px 40px 15px 30px;
+    text-align: left;
+    font-size: 18px;
+    color: #404040;
+    border: 2px solid #a7a7a7;
+}
+
+.forms_education table th:first-child {
+    width: 285px;
+}
+
+.forms_education table td {
+    padding: 25px;
+    border: 2px solid #a7a7a7;
+    font-size: 18px;
+}
+
+.bold_cell {
+    font-weight: bold;
+    font-size: 22px !important;
+}
+
+.feedback {
+    background-color: #efefef;
+    padding: 55px 90px 65px 90px;
+}
+
+.feedback h1 {
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 65px;
+}
+
+.feedback form {
+    width: 650px;
+    text-align: right;
+}
+
+.feedback form label {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.feedback form label label {
+    font-weight: normal;
+}
+
+.feedback form label input {
+    border: 2px solid #b2b2b2;
+    border-radius: 4px;
+    padding: 15px;
+    width: 510px;
+    font-size: 18px;
 
 }
 
+.feedback form label input::-webkit-input-placeholder {
+    color: #404040;
+}
+
+.feedback form textarea {
+    border: 2px solid #b2b2b2;
+    border-radius: 4px;
+    padding: 15px;
+    width: 510px;
+    font-size: 18px;
+    font-family: "Tahoma";
+    resize: none;
+}
+
+.feedback form textarea::-webkit-input-placeholder {
+    color: #404040;
+}
+
+.feedback form input[type='submit'] {
+    width: 510px;
+    background-color: #382d78;
+    border: none;
+    color: #d6d5e0;
+    text-transform: uppercase;
+    padding: 25px 200px 25px 200px;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+.feedback aside {
+    float: right;
+    position: relative;
+    top: -350px;
+    width: 310px;
+}
+
+.feedback aside p {
+    color: #707070;
+}
+
+.feedback aside p span {
+    font-weight: bold;
+    color: black;
+}

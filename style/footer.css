@@ -1,0 +1,47 @@
+footer {
+    background-color: #2a2546;
+    display: flex;
+    width: 100%;
+    min-height: 360px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.address {
+    width: 235px;
+    color: white;
+    font-family: "Tahoma";
+}
+
+.address img {
+    margin-bottom: 60px;
+}
+
+footer ul li:first-child {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    color: #8a85a4;
+    text-decoration: none;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-around !important;
+}

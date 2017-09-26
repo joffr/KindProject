@@ -20,7 +20,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e7e5f5;
+    color: #e4e2f0;
     text-decoration: none;
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #e4e2f0;
+}
+
+nav ul li a[href="index.html"]:hover {
+    border-bottom: none;
+}
+
+nav ul li a:active {
+    color: #8f83df;
+    border: none;
 }

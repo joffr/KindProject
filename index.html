@@ -5,6 +5,7 @@
     <title>Главная страница</title>
     <link rel="stylesheet" type="text/css" href="style/index.css">
     <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
 </head>
 <body>
     <header>
@@ -19,11 +20,13 @@
         </nav>
     </header>
     <main>
-        <section class="promo">
-            <h1>Учеба ещё никогда не была такой интересной!</h1>
-            <p>Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах.</p>
-            <a href="#">Подать заявку</a>
-        </section>
+        <div class="promo_invite">
+            <section class="promo">
+                <h1>Учеба ещё никогда не была такой интересной!</h1>
+                <p>Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах.</p>
+                <a href="#">Подать заявку</a>
+            </section>
+        </div>
         <section class="advantages">
             <ul>
                 <li>
@@ -53,13 +56,13 @@
                     <th>Описание</th>
                 </tr>
                 <tr>
-                    <td>Дневное обучение</td>
-                    <td>4 года</td>
+                    <td class="bold_cell">Дневное обучение</td>
+                    <td class="bold_cell">4 года</td>
                     <td>Наиболее интенсивный вариант обучения, для тех, кто не терпит компромиссов ни в чем.</td>
                 </tr>
                 <tr>
-                    <td>Вечернее обучение</td>
-                    <td>5 лет</td>
+                    <td class="bold_cell">Вечернее обучение</td>
+                    <td class="bold_cell">5 лет</td>
                     <td>Вынуждены совмещать учебу с работой? Дадим вам такую возможность, совмещайте на здоровье.</td>
                 </tr>
             </table>
@@ -68,16 +71,22 @@
             <h1>Обратная связь</h1>
             <form>
                 <label>
-                    <p>ФИО:</p>
-                    <input type="text" name="name">
+                    ФИО:
+                    <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
                 </label>
                 <label>
-                    <p>Пол:</p>
-                    <input type="radio" name="male" value="Мужской">
-                    <input type="radio" name="female" value="Женский">
+                    Пол:
+                    <label>
+                        <input type="radio" name="male">
+                        Мужской
+                    </label>
+                    <label>
+                        <input type="radio" name="female">
+                        Женский
+                    </label>
                 </label>
                 <label>
-                    <p>Доп.текст:</p>
+                    Доп.текст:
                     <textarea placeholder="Сообщите о себе все, что считаете нужным"></textarea>
                 </label>
                 <input type="submit" value="Отправить">
@@ -96,38 +105,28 @@
             <p>197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</p>
         </div>
         <ul>
-            <li>
-                <ul>
-                    <li>Обучение</li>
-                    <li><a href="#">Расписание</a></li>
-                    <li><a href="#">Предметы</a></li>
-                    <li><a href="#">Практика</a></li>
-                </ul>
-            </li>
-            <li>
-                <ul>
-                    <li>Выпускники</li>
-                    <li><a href="#">Достиджения</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Найти</a></li>
-                </ul>
-            </li>
-            <li>
-                <ul>
-                    <li>Как поступить</li>
-                    <li><a href="#">На коммерцию</a></li>
-                    <li><a href="#">Целевой набор</a></li>
-                    <li><a href="#">На бюджет</a></li>
-                </ul>
-            </li>
-            <li>
-                <ul>
-                    <li>Контакты</li>
-                    <li><a href="#">Обратная связь</a></li>
-                    <li><a href="#">Схема проезда</a></li>
-                    <li><a href="#">Телефон/факс</a></li>
-                </ul>
-            </li>
+            <li>Обучение</li>
+            <li><a href="#">Расписание</a></li>
+            <li><a href="#">Предметы</a></li>
+            <li><a href="#">Практика</a></li>
+        </ul>
+        <ul>
+            <li>Выпускники</li>
+            <li><a href="#">Достиджения</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Найти</a></li>
+        </ul>
+        <ul>
+            <li>Как поступить</li>
+            <li><a href="#">На коммерцию</a></li>
+            <li><a href="#">Целевой набор</a></li>
+            <li><a href="#">На бюджет</a></li>
+        </ul>
+        <ul>
+            <li>Контакты</li>
+            <li><a href="#">Обратная связь</a></li>
+            <li><a href="#">Схема проезда</a></li>
+            <li><a href="#">Телефон/факс</a></li>
         </ul>
     </footer>
 </body>
