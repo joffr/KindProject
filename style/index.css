@@ -169,6 +169,15 @@ body {
     color: #404040;
 }
 
+.feedback form label input:focus {
+    outline: none;
+    border: 2px solid #6451d5;
+}
+
+.feedback form label input:hover {
+    border-color: #7f7f7f;
+}
+
 .feedback form textarea {
     border: 2px solid #b2b2b2;
     border-radius: 4px;
@@ -193,6 +202,20 @@ body {
     font-size: 20px;
     font-family: "Trebuchet MS";
     font-weight: bold;
+}
+
+.feedback form input[type='submit']:hover {
+    background-color: #32286c;
+    cursor: pointer;
+}
+
+.feedback form input[type='submit']:active {
+    color: #8581a1;
+    outline: none;
+}
+
+.feedback form label label [type='radio'] {
+    cursor: pointer;
 }
 
 .feedback aside {
