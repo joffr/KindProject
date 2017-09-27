@@ -70,26 +70,43 @@
         <section class="feedback">
             <h1>Обратная связь</h1>
             <form>
-                <label>
-                    ФИО:
-                    <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
-                </label>
-                <label>
-                    Пол:
-                    <label>
-                        <input type="radio" name="gender" id="r_male">
-                        Мужской
-                    </label>
-                    <label>
-                        <input type="radio" name="gender" id="r_female">
-                        Женский
-                    </label>
-                </label>
-                <label>
-                    Доп.текст:
-                    <textarea placeholder="Сообщите о себе все, что считаете нужным"></textarea>
-                </label>
-                <input type="submit" value="Отправить">
+                <table class="table_form">
+                    <tr>
+                        <td class="name_row">
+                            <label for="user_name">ФИО:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="user_name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name_row">
+                            <label for="r_male">Пол:</label>
+                        </td>
+                        <td>
+                            <label class="normal_weight">
+                                <input type="radio" name="gender" id="r_male">
+                                Мужской
+                            </label>
+                            <label class="normal_weight">
+                                <input type="radio" name="gender" id="r_female">
+                                Женский
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name_row">
+                            <label for="form_info">Доп.текст:</label>
+                        </td>
+                        <td>
+                            <textarea placeholder="Сообщите о себе все, что считаете нужным" id="form_info"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Отправить"></td>
+                    </tr>
+                </table>
             </form>
             <aside>
                 <h2>Заинтересовались обучением на нашей кафедре?</h2>
@@ -100,34 +117,36 @@
         </section>
     </main>
     <footer>
-        <div class="address">
-            <a href="index.html"><img src="images/main_logo.png"></a>
-            <p>197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</p>
+        <div class="footer_content">
+            <div class="address">
+                <a href="index.html"><img src="images/main_logo.png"></a>
+                <p>197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</p>
+            </div>
+            <ul>
+                <li>Обучение</li>
+                <li><a href="#">Расписание</a></li>
+                <li><a href="#">Предметы</a></li>
+                <li><a href="#">Практика</a></li>
+            </ul>
+            <ul>
+                <li>Выпускники</li>
+                <li><a href="#">Достиджения</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Найти</a></li>
+            </ul>
+            <ul>
+                <li>Как поступить</li>
+                <li><a href="#">На коммерцию</a></li>
+                <li><a href="#">Целевой набор</a></li>
+                <li><a href="#">На бюджет</a></li>
+            </ul>
+            <ul>
+                <li>Контакты</li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Схема проезда</a></li>
+                <li><a href="#">Телефон/факс</a></li>
+            </ul>
         </div>
-        <ul>
-            <li>Обучение</li>
-            <li><a href="#">Расписание</a></li>
-            <li><a href="#">Предметы</a></li>
-            <li><a href="#">Практика</a></li>
-        </ul>
-        <ul>
-            <li>Выпускники</li>
-            <li><a href="#">Достиджения</a></li>
-            <li><a href="#">Отзывы</a></li>
-            <li><a href="#">Найти</a></li>
-        </ul>
-        <ul>
-            <li>Как поступить</li>
-            <li><a href="#">На коммерцию</a></li>
-            <li><a href="#">Целевой набор</a></li>
-            <li><a href="#">На бюджет</a></li>
-        </ul>
-        <ul>
-            <li>Контакты</li>
-            <li><a href="#">Обратная связь</a></li>
-            <li><a href="#">Схема проезда</a></li>
-            <li><a href="#">Телефон/факс</a></li>
-        </ul>
     </footer>
 </body>
 </html>

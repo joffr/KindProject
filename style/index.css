@@ -142,40 +142,49 @@ body {
     margin-bottom: 65px;
 }
 
-.feedback form {
-    width: 650px;
-    text-align: right;
-}
-
 .feedback form label {
-    margin-bottom: 25px;
     font-weight: bold;
 }
 
-.feedback form label label {
+.normal_weight {
     font-weight: normal;
 }
 
-.feedback form label input {
+.table_form input {
     border: 2px solid #b2b2b2;
     border-radius: 4px;
     padding: 15px;
-    width: 510px;
     font-size: 18px;
-
 }
 
-.feedback form label input::-webkit-input-placeholder {
+.table_form tr td input[type='text'] {
+    width: 510px;
+}
+
+.table_form tr td input::-webkit-input-placeholder {
     color: #404040;
 }
 
-.feedback form label input:focus {
+.table_form input:focus {
+     outline: none;
+     border: 2px solid #6451d5;
+}
+
+.table_form textarea:focus {
     outline: none;
     border: 2px solid #6451d5;
 }
 
-.feedback form label input:hover {
+.table_form input:hover {
     border-color: #7f7f7f;
+}
+
+.table_form textarea:hover {
+    border-color: #7f7f7f;
+}
+
+.name_row {
+    text-align: right;
 }
 
 .feedback form textarea {
@@ -188,12 +197,12 @@ body {
     resize: none;
 }
 
-.feedback form textarea::-webkit-input-placeholder {
+.feedback form tr td textarea::-webkit-input-placeholder {
     color: #404040;
 }
 
 .feedback form input[type='submit'] {
-    width: 510px;
+    width: 545px;
     background-color: #382d78;
     border: none;
     color: #d6d5e0;

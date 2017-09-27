@@ -1,11 +1,17 @@
 footer {
     background-color: #2a2546;
+    height: 360px;
+}
+
+.footer_content {
     display: flex;
     width: 100%;
     min-height: 360px;
     justify-content: space-around;
     align-items: center;
     font-size: 18px;
+    position: relative;
+    top: -200px;
 }
 
 ul {
@@ -41,7 +47,12 @@ footer ul li a {
     text-decoration: none;
 }
 
-.footer_list {
-    display: flex;
-    justify-content: space-around !important;
+.footer_content ul li a:hover {
+    color: #d4d3da;
+    border-bottom: 2px solid #d4d3da;
+}
+
+.footer_content ul li a:active {
+    color: #4f4a6a;
+    border: none;
 }
