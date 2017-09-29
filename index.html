@@ -69,6 +69,7 @@
         </section>
         <section class="feedback">
             <h1>Обратная связь</h1>
+            <div class="feedback_content">
             <form>
                 <table class="table_form">
                     <tr>
@@ -83,15 +84,11 @@
                         <td class="name_row">
                             <label for="r_male">Пол:</label>
                         </td>
-                        <td>
-                            <label class="normal_weight">
-                                <input type="radio" name="gender" id="r_male">
-                                Мужской
-                            </label>
-                            <label class="normal_weight">
-                                <input type="radio" name="gender" id="r_female">
-                                Женский
-                            </label>
+                        <td class="radio_buttons">
+                            <input type="radio" name="gender" id="r_male">
+                            <label for="r_male" class="normal_weight">Мужской</label>
+                            <input type="radio" name="gender" id="r_female">
+                            <label for="r_female" class="normal_weight">Женский</label>
                         </td>
                     </tr>
                     <tr>
@@ -114,6 +111,7 @@
                 <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
                 <p><span>Внимание!</span> Все поля обязательны для заполнения.</p>
             </aside>
+            </div>
         </section>
     </main>
     <footer>

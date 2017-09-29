@@ -142,12 +142,16 @@ body {
     margin-bottom: 65px;
 }
 
+.feedback form {
+    margin-right: 80px;
+}
+
 .feedback form label {
     font-weight: bold;
 }
 
 .normal_weight {
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
 .table_form input {
@@ -183,8 +187,16 @@ body {
     border-color: #7f7f7f;
 }
 
+.table_form tr td {
+    padding-bottom: 35px;
+    padding-left: 10px;
+}
 .name_row {
     text-align: right;
+}
+
+.radio_buttons label {
+    cursor: pointer;
 }
 
 .feedback form textarea {
@@ -228,17 +240,24 @@ body {
 }
 
 .feedback aside {
-    float: right;
-    position: relative;
-    top: -350px;
     width: 310px;
+}
+
+.feedback aside h2 {
+    margin-top: 0;
 }
 
 .feedback aside p {
     color: #707070;
+    margin-bottom: 30px;
 }
 
 .feedback aside p span {
     font-weight: bold;
     color: black;
+}
+
+.feedback_content {
+    display: flex;
+    justify-content: center;
 }

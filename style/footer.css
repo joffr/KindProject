@@ -10,8 +10,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     font-size: 18px;
-    position: relative;
-    top: -200px;
 }
 
 ul {
