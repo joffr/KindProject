@@ -261,3 +261,39 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.radio_buttons input + label {
+    cursor: pointer;
+}
+
+.radio_buttons input:not(checked) {
+    opacity: 0;
+    position: absolute;
+}
+
+.radio_buttons input:not(checked) + label {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.radio_buttons input:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: #c4c4c4;
+    border: 2px solid #c4c4c4;
+}
+
+.radio_buttons input:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    background: #382d78;
+    border: 4px solid #c4c4c4;
+}
